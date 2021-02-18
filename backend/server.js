@@ -14,7 +14,7 @@ app.use('/users', usersRouter);
 app.use('/exercises', exercisesRouter);
 
 
-const CONNECTION_URL = 'mongodb+srv://:@cluster0.4pf0f.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const CONNECTION_URL = 'your mongodb connection uri';
 
 const PORT = process.env.PORT || 5000;
 
